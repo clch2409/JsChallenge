@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robot" content="index,follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./inicio_sesion.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <img class="header__img" src="https://raw.githubusercontent.com/platzi/PlatziVideo/feature/react/src/assets/static/logo-platzi-video-BW2.png" alt="Logo de PlatziVideo">
+    </header>
+    <section class="login">
+        <div class="login__container">
+            <h1 class="login__container--text">Inicia sesión</h1>
+            <div>
+                <label class="login__container--input">
+                    <input class="login__container--input--email" type="email" placeholder="Correo">
+                    <input class="login__container--input--password" type="password" placeholder="Contraseña">
+                    <input class="login__container--input--button" type="button" value="Iniciar sesión">
+                </label>
+            </div>
+            <div class="login__container--remember-me">
+                <label>
+                    <input type="checkbox" name="" id="cbox1">
+                    <span>Recuérdame</span>
+                </label>
+                <p><a href="/">Olvidé mi contraseña</a></p>
+            </div>
+            <div class="login__container--social-media">
+                <div class="login__container--social-media--google">
+                    <img src="https://static.platzi.com/media/tmp/class-files/git/curso-frontend-escuelajs/curso-frontend-escuelajs-maquetacion-login-HTML/maquetacion-login-HTML/assets/google-icon.png" alt="Google logo">
+                    <span>Inicia sesión con Google</span>
+                </div>
+                <div class="login__container--social-media--twitter">
+                    <img src="https://static.platzi.com/media/tmp/class-files/git/curso-frontend-escuelajs/curso-frontend-escuelajs-maquetacion-login-HTML/maquetacion-login-HTML/assets/twitter-icon.png" alt="Twitter logo">
+                    <span>Inicia sesión con Twitter</span>
+                </div>
+            </div>
+            <p class="login__container--register">Si no tienes una cuenta <a href="">Regístrate</a></p>
+        </div>
+    </section>
+    <footer class="footer">
+        <p><a href="/">Términos de uso</a></p>
+        <p><a href="/">Declaración de privacidad</a></p>
+        <p><a href="/">Centro de ayuda</a></p>
+    </footer>
+</body>
+</html>

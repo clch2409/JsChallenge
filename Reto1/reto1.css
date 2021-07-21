@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+    background-color: #1972A4;
+}
+
+/* Comienza el Header */
+.header{
+    align-items: center;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.7rem;
+    background-color: rgb(153, 243, 189);
+}
+.header_img{
+    margin-left: 10px;
+    margin-top: 17px;
+    width: 170px;
+}
+.header_menu{
+    align-items: center;
+    display: flex;
+    text-align: right;
+}
+.header_menu-text{
+    margin-right: 20px;
+    font-size: 2rem;
+}
+.header_menu-text a{
+    color: white;
+    text-decoration: none;
+}
+.header_menu-img{
+    color: white;
+    margin-right: 20px;
+    width: 3.7rem;
+}
+.nav{
+    display: none;
+    font-size: 1.5rem;
+    position: absolute;
+    text-align: right; 
+}
+.nav_item{
+    list-style: none;
+    margin-top: 8px;
+}
+menu:hover .nav, .nav:hover{
+    display: block;
+} 
+.nav_item:hover{
+    text-decoration: underline;
+}
+.nav_item a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+}
+/* Termina el menu desplegable */
+
+/* Comienza el buscador */
+.main{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(rgb(153, 243, 189) 0%, #1972A4 100%);
+}
+.main-title{
+    color: white;
+    font-size: 2.1rem;
+}
+.main-input{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: white 3px solid;
+    border-radius: 30px;
+    color: white;
+    font-size: 1.4rem;
+    height: 50px;
+    margin-top: 20px;
+    outline: none;
+    padding-left: 15px;
+    width: 72%;
+}
+.main-input::placeholder{
+    color: white;
+}
+/* Termina el buscador */
+/* Empieza el footer */
+
+/* Termina el footer */
+/* Empieza el carrusel de imágenes */
